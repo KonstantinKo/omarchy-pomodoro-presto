@@ -1,6 +1,6 @@
-# Presto for Omarchy
+# Pomodoro Presto
 
-A Pomodoro timer in the Omarchy bar that opens the **complete Presto application**.
+A Pomodoro focus timer in the Omarchy bar that opens the **complete Presto application**.
 There is one engine, one history, and one interface. There is no separate lite UI.
 
 ![Full Presto with its Omarchy theme](preview.png)
@@ -10,6 +10,19 @@ calendar, notifications, ambient audio, shortcuts and an **Omarchy** theme along
 Espresso, Pommodore64 and PipBoy. Omarchy is selected by default on Omarchy when no
 explicit theme has been saved. Saved choices are preserved. The theme uses its own
 light/dark palette; it does not mirror arbitrary live shell palettes.
+
+## Pomodoro, flowtime-style focus and time tracking
+
+Use configurable focus sessions, short breaks and long breaks for the Pomodoro
+Technique, work/break intervals and timeboxing. For flowtime-style focus, enable
+continuous sessions: keep working beyond the countdown in overtime and finish
+manually when you are ready. Break durations remain configurable; they are not
+calculated from a Flowtime work-to-break formula.
+
+Track focused work with tasks, tags, session history and focus statistics. Useful
+for deep work, study sessions, concentration, productivity, distraction tracking
+and keeping a record of your time. Ambient audio and notifications help support
+your focus and break routine.
 
 ## Requirements
 
@@ -27,7 +40,7 @@ system libraries and is not a portable build for every Linux distribution.
 Install the plugin using Omarchy's standard command:
 
 ```sh
-omarchy plugin add https://github.com/KonstantinKo/omarchy-presto.git --enable
+omarchy plugin add https://github.com/KonstantinKo/omarchy-pomodoro-presto.git --enable
 ```
 
 Then download and verify the companion app. The plugin does not execute an install
@@ -37,8 +50,8 @@ shows an unavailable indicator.
 ```sh
 mkdir -p "$HOME/Downloads/presto-omarchy-2.2.0"
 cd "$HOME/Downloads/presto-omarchy-2.2.0"
-curl -fLO https://github.com/KonstantinKo/omarchy-presto/releases/download/v2.2.0/presto-omarchy-2.2.0-linux-x86_64.tar.gz
-curl -fLO https://github.com/KonstantinKo/omarchy-presto/releases/download/v2.2.0/SHA256SUMS
+curl -fLO https://github.com/KonstantinKo/omarchy-pomodoro-presto/releases/download/v2.2.0/presto-omarchy-2.2.0-linux-x86_64.tar.gz
+curl -fLO https://github.com/KonstantinKo/omarchy-pomodoro-presto/releases/download/v2.2.0/SHA256SUMS
 sha256sum --ignore-missing -c SHA256SUMS
 tar -xzf presto-omarchy-2.2.0-linux-x86_64.tar.gz
 bash "$HOME/.config/omarchy/plugins/konko.presto/install-runtime.sh" "$PWD/presto"

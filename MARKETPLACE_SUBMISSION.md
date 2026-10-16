@@ -6,7 +6,7 @@ Awaiting marketplace review. The repository and v2.2.0 release are public.
 
 ## Repository URL
 
-https://github.com/KonstantinKo/omarchy-presto
+https://github.com/KonstantinKo/omarchy-pomodoro-presto
 
 ## Category
 
@@ -16,11 +16,27 @@ Productivity
 
 Bar, Quickshell, Hyprland
 
+## Suggest a missing tag
+
+Pomodoro
+
 ## Maintainer notes
 
-Presto is a Pomodoro timer whose bar widget opens the complete original Presto
-application directly. It has one engine, one history and one UI, including an
+Pomodoro Presto is a Pomodoro focus timer whose bar widget opens the complete
+original Presto application directly. It has one engine, one history and one UI, including an
 Omarchy theme in its existing theme picker. There is no lite panel.
+
+Pomodoro Technique, configurable focus sessions, short and long breaks, work/break
+intervals and timeboxing are supported. Continuous sessions let the countdown
+continue in overtime for flowtime-style focus until you finish manually; break
+durations stay configurable rather than being calculated from a Flowtime formula.
+Tasks, tags, distraction tracking, session history, focus statistics, ambient audio
+and notifications support deep work, study sessions, concentration, productivity
+and personal time tracking.
+
+Search keywords: pomodoro, pomodoro timer, focus timer, flowtime, flowtime-style
+focus, deep work, timeboxing, work/break timer, break reminder, study timer,
+time tracking, session history, productivity, Quickshell, Hyprland, Omarchy.
 
 The root manifest validates with `omarchy plugin validate .`. The plugin requires
 the matching modified Presto runtime. Release v2.2.0 supplies a Linux x86_64 binary,

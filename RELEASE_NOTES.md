@@ -1,4 +1,4 @@
-Presto for Omarchy 2.2.0 opens the complete original Presto app directly from the bar.
+Pomodoro Presto 2.2.0 opens the complete original Presto app directly from the bar.
 The Omarchy theme is a regular choice alongside Espresso, Pommodore64 and PipBoy,
 and is the default on Omarchy when no explicit choice is saved.
 
@@ -12,7 +12,7 @@ This first public plugin release includes:
 Install the plugin with:
 
 ```sh
-omarchy plugin add https://github.com/KonstantinKo/omarchy-presto.git --enable
+omarchy plugin add https://github.com/KonstantinKo/omarchy-pomodoro-presto.git --enable
 ```
 
 Then follow README.md to install the matching native runtime. Adding/enabling the
@@ -20,3 +20,7 @@ plugin does not automatically download or install it. No lite panel is included.
 
 Verified on Omarchy 4.0.4 / Arch Linux. Other CPU architectures and portable Linux
 binaries are not included. The original macOS-only idle monitoring remains unchanged.
+
+Continuous sessions support flowtime-style focus through overtime and manual
+completion; break durations remain configurable. Also useful for deep work,
+timeboxing, study sessions, focus tracking and work/break routines.

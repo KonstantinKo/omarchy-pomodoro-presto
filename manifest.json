@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "konko.presto",
-  "name": "Presto",
+  "name": "Pomodoro Presto",
   "version": "2.2.0",
   "author": "konko",
-  "description": "The complete Presto app with an Omarchy theme and bar controls, sharing its original engine and data.",
+  "description": "Pomodoro focus timer with continuous overtime for flowtime-style work, work/break intervals, time tracking, tasks and focus statistics. Opens the complete Presto app from the Omarchy bar.",
   "kinds": [
     "bar-widget"
   ],
@@ -12,7 +12,7 @@
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
-    "displayName": "Presto",
+    "displayName": "Pomodoro Presto",
     "category": "Productivity",
     "allowMultiple": false,
     "defaultSection": "right"
