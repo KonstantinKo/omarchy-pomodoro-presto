@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "konko.presto",
+  "name": "Presto",
+  "version": "2.2.0",
+  "author": "konko",
+  "description": "The complete Presto app with an Omarchy theme and bar controls, sharing its original engine and data.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Presto",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
