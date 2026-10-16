@@ -3,6 +3,8 @@
 A Pomodoro timer in the Omarchy bar that opens the **complete Presto application**.
 There is one engine, one history, and one interface. There is no separate lite UI.
 
+![Full Presto with its Omarchy theme](preview.png)
+
 The app includes tasks, tags, quick logs, distractions, manual sessions, statistics,
 calendar, notifications, ambient audio, shortcuts and an **Omarchy** theme alongside
 Espresso, Pommodore64 and PipBoy. Omarchy is selected by default on Omarchy when no
